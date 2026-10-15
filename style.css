@@ -29,7 +29,7 @@ h1
     min-height: 5vh;
 }
   
-p 
+p, pre 
 {
     font-family: verdana;
     margin: 1vh;

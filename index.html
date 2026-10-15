@@ -11,16 +11,11 @@
     <pre id="demo"></pre>
     
     <script>
-        const person = {
-            name: "John",
-            age: 30,
-            city: "New York"
-        };
+        const player = { "striker_id": 1, "stats": { "custom": { "football": { "catches": 1, "draws": 2, "goals": 6, "losses": 10, "passes": 21, "poke_tackles_performed": 12, "slide_tackles_performed": 5, "slide_tackles_won": 2, "wins": 5 } }, "matchmaking": { "football": { "assists": 3, "backfilled": 8, "catches": 7, "deflects": 1, "draws": 1, "goals": 29, "losses": 27, "own_goals": 1, "passes": 49, "penalties_scored": 1, "penalties_taken": 2, "poke_tackles_performed": 28, "poke_tackles_won": 1, "slide_tackles_performed": 23, "slide_tackles_won": 3, "wins": 15 } } } };
 
         document.getElementById("demo").textContent =
-            JSON.stringify(person, null, 2);
+            JSON.stringify(player, null, 2);
     </script>
-    <p>{"striker_id":1,"stats":{"custom":{"football":{"catches":1,"draws":2,"goals":6,"losses":10,"passes":21,"poke_tackles_performed":12,"slide_tackles_performed":5,"slide_tackles_won":2,"wins":5}},"matchmaking":{"football":{"assists":3,"backfilled":8,"catches":7,"deflects":1,"draws":1,"goals":29,"losses":27,"own_goals":1,"passes":49,"penalties_scored":1,"penalties_taken":2,"poke_tackles_performed":28,"poke_tackles_won":1,"slide_tackles_performed":23,"slide_tackles_won":3,"wins":15}}}}</p>
 
 </body>
 
